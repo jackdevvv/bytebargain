@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheap Laptops & Macbooks - Affordable Electronics Online | ByteBargains</title>
+    <meta name="description" content="Buy cheap laptops, macbooks, and mobile phones at affordable prices. Premium quality electronics at unbeatable prices. Free shipping on orders over $50.">
+    <meta name="keywords" content="cheap laptops, affordable macbooks, budget smartphones, discount electronics, cheap mobile phones, laptops for sale">
+    <meta name="author" content="ByteBargains Inc.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Cheap Laptops & Macbooks - ByteBargains">
+    <meta property="og:description" content="Discover high-quality laptops, macbooks, and phones at affordable prices.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Ads Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-xxxxxxxxxxxxxxxx"></script>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ByteBargains",
+      "url": "https://bytebargains.shop",
+      "sameAs": ["https://www.facebook.com/bytebargains"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-link">
+                <svg class="logo-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect x="2" y="2" width="36" height="36" rx="8" fill="url(#logoGradient)"/>
+                    <rect x="8" y="10" width="20" height="14" rx="2" fill="white" opacity="0.9"/>
+                    <rect x="8" y="8" width="20" height="2" rx="1" fill="white" opacity="0.9"/>
+                </svg>
+                <span>ByteBargains</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="cart-button" onclick="toggleCart()" title="Shopping Cart">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7 4V3C7 2.45 7.45 2 8 2H16C16.55 2 17 2.45 17 3V4H20C21.1 4 22 4.9 22 6V20C22 21.1 21.1 22 20 22H4C2.9 22 2 21.1 2 20V6C2 4.9 2.9 4 4 4H7ZM9 4H15V3H9V4ZM4 6V20H20V6H4Z" fill="currentColor"/>
+                    <circle cx="19" cy="2" r="5" fill="#ef4444"/>
+                    <text x="19" y="5.5" text-anchor="middle" fill="white" font-size="8" font-weight="bold" id="cartCount">0</text>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Free Shipping Banner -->
+    <div class="shipping-banner">
+        <p>🚚 <strong>FREE SHIPPING</strong> on orders over $500 | 2-3 day express delivery available</p>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Cheap Laptops & Macbooks - Affordable Electronics</h1>
+                <p>Buy cheap macbooks, laptops, and mobile phones at unbeatable prices. Premium quality electronics at discounted rates.</p>
+                <button class="cta-button" onclick="scrollToProducts()">Shop Cheap Electronics</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carousel/Slider Section -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <!-- Carousel Slides -->
+                <div class="carousel-slides">
+                    <div class="carousel-slide active">
+                        <img src="https://placehold.co/1200x400/1e3a8a/ffffff?text=Cheap+Laptops+Macbooks" alt="Cheap Laptops & Macbooks">
+                        <div class="carousel-caption">
+                            <h2>Cheap Laptops & Macbooks</h2>
+                            <p>Save up to 40% on affordable electronics</p>
+                            <button class="carousel-btn" onclick="scrollToProducts()">Shop Cheap Laptops</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="https://placehold.co/1200x400/3b82f6/ffffff?text=Budget+Mobile+Phones" alt="Budget Mobile Phones">
+                        <div class="carousel-caption">
+                            <h2>Budget Mobile Phones</h2>
+                            <p>Affordable smartphones at unbeatable prices</p>
+                            <button class="carousel-btn" onclick="scrollToProducts()">View Phones</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="https://placehold.co/1200x400/1e40af/ffffff?text=Discount+Electronics" alt="Discount Electronics">
+                        <div class="carousel-caption">
+                            <h2>Discount Electronics Deals</h2>
+                            <p>Limited time offers on cheap devices</p>
+                            <button class="carousel-btn" onclick="scrollToProducts()">See Deals</button>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <img src="https://placehold.co/1200x400/0ea5e9/ffffff?text=Refurbished+Macbooks" alt="Refurbished Macbooks">
+                        <div class="carousel-caption">
+                            <h2>Refurbished Macbooks - Certified</h2>
+                            <p>Cheap MacBooks - Like new, fully tested</p>
+                            <button class="carousel-btn" onclick="scrollToProducts()">Explore</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous and Next Buttons -->
+                <button class="carousel-btn-prev" onclick="moveCarouselSlide(-1)">❮</button>
+                <button class="carousel-btn-next" onclick="moveCarouselSlide(1)">❯</button>
+            </div>
+
+            <!-- Carousel Indicators/Dots -->
+            <div class="carousel-indicators">
+                <span class="indicator active" onclick="currentCarouselSlide(0)"></span>
+                <span class="indicator" onclick="currentCarouselSlide(1)"></span>
+                <span class="indicator" onclick="currentCarouselSlide(2)"></span>
+                <span class="indicator" onclick="currentCarouselSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Ads Banner (Top) -->
+    <section class="ads-section">
+        <div class="container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+                 data-ad-slot="1234567890"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </section>
+
+    <!-- Featured Product -->
+    <section class="featured-product">
+        <div class="container">
+            <h2>Featured: Cheap MacBook Pro Laptops</h2>
+            <div class="featured-item">
+                <div class="featured-image">
+                    <img src="https://placehold.co/400x400/1e3a8a/ffffff?text=MacBook+Pro" alt="Affordable MacBook Pro">
+                </div>
+                <div class="featured-info">
+                    <h3>Cheap MacBook Pro 13" - Affordable Laptop for Work & Study</h3>
+                    <p class="price">$699.99 <span class="original-price">$1,099.99</span></p>
+                    <p class="description">Get cheap MacBook Pro at unbeatable prices! This affordable laptop features powerful performance, gorgeous Retina display, and all-day battery. Perfect for students and professionals seeking discounted electronics.</p>
+                    <ul class="features">
+                        <li>Intel Core i5 - Fast Performance</li>
+                        <li>13.3" Retina Display</li>
+                        <li>8GB RAM - Smooth Multitasking</li>
+                        <li>256GB SSD Storage</li>
+                        <li>Save $400 on This Cheap MacBook!</li>
+                    </ul>
+                    <button class="add-to-cart-btn" onclick="addToCart('Cheap MacBook Pro 13', 699.99)">Add to Cart - Just $699.99</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Cheap Laptops, Macbooks & Mobile Phones at Affordable Prices</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="best-seller-badge">BEST SELLER</span>
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Cheap+Laptop" alt="Budget Laptop">
+                    </div>
+                    <h3>Cheap Dell Laptop 15.6" - Budget Friendly</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(324 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> Intel i5 | 8GB RAM | 256GB SSD | Win 11</p>
+                    <p class="product-price"><span class="original-price">$599.99</span> $399.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Cheap Dell Laptop 15.6', 399.99)">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Budget+Mobile" alt="Affordable Smartphone">
+                    </div>
+                    <h3>Cheap Smartphone - 128GB Storage</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(182 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> 6.5" Display | 128GB | 4G LTE | 20MP Camera</p>
+                    <p class="product-price"><span class="original-price">$349.99</span> $199.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Cheap Smartphone 128GB', 199.99)">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Discount+Laptop" alt="Discounted HP Laptop">
+                    </div>
+                    <h3>Cheap HP Laptop - Student Discount</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(267 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> Intel i7 | 8GB RAM | 512GB SSD | Win 11</p>
+                    <p class="product-price"><span class="original-price">$549.99</span> $349.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Cheap HP Laptop', 349.99)">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="best-seller-badge">BEST SELLER</span>
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Budget+Macbook" alt="Refurbished MacBook">
+                    </div>
+                    <h3>Cheap MacBook Air - Refurbished Deal</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(456 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> M1 Chip | 8GB RAM | 256GB SSD | Grade A</p>
+                    <p class="product-price"><span class="original-price">$899.99</span> $549.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days • ✓ 1-Year Warranty</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Cheap MacBook Air Refurbished', 549.99)">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Budget+Phone" alt="Budget Mobile">
+                    </div>
+                    <h3>Budget Mobile Phone - 64GB Version</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★☆</span>
+                        <span class="rating-count">(95 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> 6.1" HD+ | 64GB | 5G Ready | 12MP</p>
+                    <p class="product-price"><span class="original-price">$249.99</span> $149.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Budget Mobile Phone 64GB', 149.99)">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="in-stock-badge">In Stock</span>
+                        <img src="https://placehold.co/250x250/3b82f6/ffffff?text=Work+Laptop" alt="Professional Cheap Laptop">
+                    </div>
+                    <h3>Professional Cheap Laptop - 16GB RAM</h3>
+                    <div class="product-rating">
+                        <span class="stars">★★★★★</span>
+                        <span class="rating-count">(338 reviews)</span>
+                    </div>
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;"><strong>Specs:</strong> Intel i9 | 16GB RAM | 512GB SSD | Pro Graphics</p>
+                    <p class="product-price"><span class="original-price">$699.99</span> $459.99</p>
+                    <p style="font-size: 12px; color: #0ea5e9; margin: 5px 0;">✓ Delivers in 2-3 days • ✓ 2-Year Warranty</p>
+                    <button class="add-to-cart-btn" onclick="addToCart('Professional Cheap Laptop 16GB', 459.99)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Ads Banner (Middle) -->
+    <section class="ads-section">
+        <div class="container">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+                 data-ad-slot="0987654321"
+                 data-ad-format="horizontal"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <p>ByteBargains is a leading ecommerce platform dedicated to providing premium quality products at affordable prices. Founded in 2018, we have grown to serve over 100,000 satisfied customers worldwide. Our mission is to make high-quality technology products accessible to everyone while maintaining exceptional customer service standards. We're proud to offer the cheapest prices on laptops, MacBooks, and smartphones without compromising on quality.</p>
+                
+                <div class="about-features">
+                    <div class="about-feature">
+                        <h4>🚚 Fast Shipping</h4>
+                        <p>Free shipping on orders over $500. Express 2-3 day delivery available nationwide.</p>
+                    </div>
+                    <div class="about-feature">
+                        <h4>✅ Quality Assurance</h4>
+                        <p>All products undergo rigorous quality checks. 100% authentic with manufacturer warranties.</p>
+                    </div>
+                    <div class="about-feature">
+                        <h4>🛡️ Secure Transactions</h4>
+                        <p>SSL encrypted payments. Buyer protection on every purchase. Money-back guarantee.</p>
+                    </div>
+                </div>
+
+                <h3>Why Choose ByteBargains?</h3>
+                <ul class="why-choose">
+                    <h3>Why Choose ByteBargains?</h3>
+                    <li><strong>Lowest Prices Guaranteed:</strong> We match competitor prices and beat them by 5-10%.</li>
+                    <li><strong>Expert Curation:</strong> Our team handpicks only the best budget electronics that offer exceptional value.</li>
+                    <li><strong>24/7 Customer Support:</strong> Dedicated support team available via chat, email, and phone.</li>
+                    <li><strong>30-Day Returns:</strong> Easy no-hassle returns. Full refund or exchange within 30 days.</li>
+                    <li><strong>Trusted by 100K+ Customers:</strong> 4.8★ average rating with verified buyer reviews.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Excellent products and fast shipping! The headphones are exactly as described and the build quality is outstanding. Highly recommended!"</p>
+                    <p class="testimonial-author">- Sarah M.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Great customer service! I had a question about my order and they responded within minutes. Will definitely order again."</p>
+                    <p class="testimonial-author">- John D.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Best prices I've found anywhere. The wireless charger works perfectly and arrived well-packaged. Very satisfied with my purchase."</p>
+                    <p class="testimonial-author">- Emma L.</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Fast delivery, great quality, and excellent packaging. ByteBargains is my go-to store for tech products. Five stars!"</p>
+                    <p class="testimonial-author">- Michael R.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h4>How long does shipping take?</h4>
+                    <p>Standard shipping takes 5-7 business days. Orders over $50 qualify for free shipping. Express shipping options are available at checkout.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What is your return policy?</h4>
+                    <p>We offer a 30-day money-back guarantee on all products. If you're not satisfied, simply contact our customer service team for a hassle-free return.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Are your products authentic?</h4>
+                    <p>Yes, all products sold on ByteBargains are 100% authentic and sourced directly from manufacturers or authorized distributors. We guarantee authenticity on every product.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>What payment methods do you accept?</h4>
+                    <p>We accept all major credit cards (Visa, Mastercard, American Express), PayPal, and Apple Pay. All transactions are secured with SSL encryption.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you offer warranty on products?</h4>
+                    <p>Yes, all electronics come with manufacturer warranties. We provide assistance with warranty claims and offer extended warranty options for select products.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>How can I track my order?</h4>
+                    <p>You'll receive a tracking number via email once your order ships. You can track your package in real-time through our website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Google Ads Banner (Sidebar) -->
+    <section class="sidebar-ads">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-xxxxxxxxxxxxxxxx"
+             data-ad-slot="5555555555"
+             data-ad-format="vertical"
+             data-full-width-responsive="false"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="mailto:support@ByteBargains.com">Email Support</a></li>
+                        <li><a href="tel:+1-800-123-4567">Phone: 1-800-123-4567</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="shipping-policy.html">Shipping Info</a></li>
+                        <li><a href="return-policy.html">Return Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ByteBargains Inc. All rights reserved. | ByteBargains is a registered trademark.</p>
+                <p>Company Address: 123 Commerce Street, New York, NY 10001, USA</p>
+                <p>Email: support@ByteBargains.com | Phone: 1-800-123-4567</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

